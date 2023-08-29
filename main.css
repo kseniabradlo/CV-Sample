@@ -1,0 +1,388 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/Montserrat/static/Montserrat-Regular.ttf);
+   
+}
+
+html
+body {
+    font-family: Montserrat;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.wrapper header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+
+.wrapper header .links {
+    display: flex;
+    justify-content: space-between;
+    width: 534px;
+   
+}
+
+.wrapper header .links a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper header .phone-number {
+    color: #A52424;
+}
+
+.section1{
+    width:1170px ;
+    display: flex;
+    margin: auto;
+}
+
+.section1 .section1-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 443px;
+    height: 347px;
+    margin-top: 90px;
+}
+
+.section1 .section1-left h1 {
+    font-size: 72px;
+}
+
+.section1 .section1-left p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.section1 .section1-left .button input {
+    padding: 15px;
+    background-color: white;
+    color: #A52424;
+    border: 1px solid #A52424;
+    text-decoration: none;
+}
+.section1 .section1-left .button input:hover {
+    
+    background-color: #A52424;
+    color: white;
+    text-decoration: none;
+}
+
+.section1 .section1-right {
+    width: 674px;
+}
+
+
+.section2 {
+    width:1170px ;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.section2 .title {
+    font-size: 34px;
+}
+
+.section2 .section2-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section2 .section2-main .left {
+    width: 377px;
+    height: 580px;
+    position: relative;
+}
+
+.section2 .section2-main .left .white{
+    width: 377px;
+    height: 580px;
+    box-shadow: 1px 3px 30px 5px rgb(183, 174, 174)
+}
+
+.section2 .section2-main .left .img{
+    position: absolute;
+    top: 49px;
+    left:130px;
+}
+
+.section2 .section2-main .left div p{
+    position: absolute;
+    top: 450px;
+    left:125px;
+    color: #A52424;
+    font-size: 22px;
+    /* не підтягується semibold */
+}
+
+.section2 .section2-main .right {
+    width: 650px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    
+    position: relative; 
+    text-align: justify;
+}
+
+.section2 .section2-main .right h2 {
+    color: #A52424;
+}
+
+.section2 .section2-main .right .white{
+    width: 567px;
+    height: 330px;
+    box-shadow: 1px 3px 30px 5px rgb(183, 174, 174);
+   margin-left: 120px;
+    
+}
+
+.section2 .section2-main .right .img{
+    position: absolute;
+    top: 280px;
+    left: 400;
+
+}
+
+.section3 {
+    width:1170px ;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.section3 .title {
+    font-size: 34px;
+}
+
+.section3 .section3-main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1170px;
+}
+
+.section3 .section3-main .morning {
+    margin-left: 20px;
+}
+
+.section3 .section3-main #button {
+    padding: 15px 40px;
+    border: 1px solid #A52424;
+    color: #A52424;
+    font-size: small;
+    background-color: white;
+}
+.section3 .section3-main #button:hover{
+    background-color: #A52424;
+    color: white;
+}
+
+
+
+.section4 {
+    width:1170px ;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.section4 .title {
+    font-size: 34px;
+}
+
+.section4 .section4-main {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.section4 .section4-main .left {
+    position: relative;
+}
+
+.section4 .section4-main .left .white {
+    width: 509px;
+    height: 467px;
+    box-shadow: 1px 5px 5px 5px rgb(183, 174, 174);
+    margin-top: 100px;
+}
+
+.section4 .section4-main .left .overwhite {
+    position: absolute;
+    top: -30px;
+    left: 100px;
+}
+
+.section4 .section4-main .right {
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.section4 .section4-main .right .white {
+    width: 509px;
+    height: 467px;
+    box-shadow: 1px 5px 5px 5px rgb(183, 174, 174);
+    margin-top: 100px;
+}
+
+.section4 .section4-main .right .overwhite {
+    position: absolute;
+    top: -30px;
+    left: 100px;
+}
+
+.section4 .section4-main h3 {
+    text-align: center;
+    color: #A52424;
+}
+
+.section4 .section4-main .overwhite .one, .two, .three, .four {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.section4 .section4-main .four {
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.section4 .four .price {
+    color: #A52424;
+    font-size: 25px;
+}
+
+.section4 .four input {
+    color: #A52424;
+    font-size: 25px;
+    padding: 15px 40px;
+    border: 1px solid #A52424;  
+    font-size: small;
+    background-color: white;
+}
+
+.section4 .four input:hover{
+    background-color: #A52424;
+    color: white;
+}
+
+
+
+.section5 {
+    width:1170px ;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.section5 .title {
+    font-size: 34px;
+}
+
+.section5 .section5-main {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.section5 .section5-main .left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section5 .section5-main .left .absolute {
+    position: absolute;
+    left: 27%;
+}
+
+
+.section5 .section5-main .right form{
+    display: flex;
+    flex-direction: column;
+}
+
+.section5 .section5-main .right form input{
+   padding: 15px 300px 15px 15px;
+   text-align: left;
+   color: rgb(246, 238, 238);
+   margin-bottom: 30px;
+   border: 1px solid rgb(239, 235, 235);
+
+}
+
+
+.section5 .section5-main .right form #message{
+    padding: 15px 200px 15px 15px;
+    text-align: left;
+    color: rgb(246, 238, 238);
+    margin-bottom: 30px;
+    border: 1px solid rgb(239, 235, 235);
+
+ }
+
+ .section5 .section5-main .right form #message{
+    padding: 15px 200px 15px 15px;
+    text-align: left;
+    color: rgb(246, 238, 238);
+    margin-bottom: 30px;
+ }
+
+ .section5 .section5-main .right form .button{
+    color: #A52424;
+    font-size: 25px;
+    padding: 15px;
+    border: 1px solid #A52424;  
+    font-size: medium;
+    background-color: white;
+    text-align: center;
+    letter-spacing: 3px;
+ }
+
+ .section5 .section5-main .right form .button:hover {
+    background-color: #A52424;
+    color: white;
+ }
+ 
+
+hr {
+    margin-top: 120px;
+    color: rgb(193, 190, 190);
+
+}
+
+ .section6 {
+    width:1170px ;
+    margin: auto;
+}
+
+
+
+.section6 .section6-main {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    align-items: center;
+}
+
+
+.section6 .section6-main .socials {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+}
+
+
+
+.section6 .section6-main .phone-number {
+    color: #A52424;
+}
